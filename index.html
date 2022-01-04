@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Anil Gajiev's webpage</title>
+  </head>
+  <body>
+    <nav id="navbar" class="nav-footer-containers horizontal-padding">
+      <div id="logo-container">
+        <img src="./imgs/ag_logo.png" alt="" />
+      </div>
+      <ul id="nav-links-container">
+        <li><a href="#welcome-section" class="nav-link">Get to know me</a></li>
+        <li><a href="#projects" class="nav-link">My cretions</a></li>
+        <li><a href="#contact-me" class="nav-link">Get in touch</a></li>
+      </ul>
+      <label id="hamburger">
+        <i class="fas fa-bars"></i>
+      </label>
+    </nav>
+    <main>
+      <section id="welcome-section">
+        <div class="welcome-containers">
+          <h1 id="introductory-header"><span id="typed-text"></span></h1>
+        </div>
+        <div class="welcome-containers"></div>
+      </section>
+
+      <section id="projects">
+        <div class="section-header">
+          <h2>Check out my projects</h2>
+        </div>
+
+        <div id="projects-slider">
+          <div class="projects project-tile">
+            <img
+              src="./imgs/1.app_form/application_form_phone.png"
+              alt="Hogsmeade application form"
+            />
+            <a
+              class="check-out-btn"
+              href="https://codepen.io/ZzZSpartaZzZ/full/KKvNLJX"
+              >Check Out</a
+            >
+          </div>
+          <div class="projects project-tile">
+            <img
+              src="./imgs/2.crypto_parallax/crypto_parallax_phone.png"
+              alt="Cryptocurrency parallax page"
+            />
+            <a
+              class="check-out-btn"
+              href="https://codepen.io/ZzZSpartaZzZ/full/vYJaXMm"
+              >Check Out</a
+            >
+          </div>
+          <div class="projects project-tile">
+            <img
+              src="./imgs/3.nature_parallax/nature_parallax_phone.png"
+              alt="Nature related parallax page"
+            />
+            <a
+              class="check-out-btn"
+              href="https://codepen.io/ZzZSpartaZzZ/full/WNELbLG"
+              >Check Out</a
+            >
+          </div>
+          <div class="projects project-tile">
+            <img
+              src="./imgs/4.imaginary_crypto_one_pager/imaginary_crypto_one_pager_phone.png"
+              alt="Imaginary cryptocurrency one-pager"
+            />
+            <a
+              class="check-out-btn"
+              href="https://codepen.io/ZzZSpartaZzZ/full/eYEyEwy"
+              >Check Out</a
+            >
+          </div>
+          <div class="projects project-tile">
+            <img
+              src="./imgs/5.vr_headset_doc/vr_headset_doc_phone.png"
+              alt="Imaginary VR headset documentation page"
+            />
+            <a
+              class="check-out-btn"
+              href="https://codepen.io/ZzZSpartaZzZ/full/zYEKyRy"
+              >Check Out</a
+            >
+          </div>
+          <div class="projects project-tile">
+            <img
+              src="./imgs/6.subscription_app/subscription_app_phone.png"
+              alt="Newsletter subscription app"
+            />
+            <a
+              class="check-out-btn"
+              href="https://safe-journey-08591.herokuapp.com/"
+              >Check Out</a
+            >
+          </div>
+          <div class="projects project-tile">
+            <img
+              src="./imgs/7.Campground/yeap_camp_phone.png"
+              alt="Camping app"
+            />
+            <a
+              class="check-out-btn"
+              href="https://still-harbor-93812.herokuapp.com/"
+              >Check Out</a
+            >
+          </div>
+          <div class="projects project-tile">
+            <img
+              src="./imgs/8.product_trio/product_trio_phone.png"
+              alt="Products shopping app"
+            />
+            <a
+              class="check-out-btn"
+              href="https://products-trio.000webhostapp.com/"
+              >Check Out</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-me">
+        <div class="section-header horizontal-padding">
+          <h2>Want to get in touch?</h2>
+        </div>
+        <div id="contact-icons">
+          <div class="contact-icon-rows row1">
+            <a
+              id="linkedin-contact-link"
+              class="contact-links"
+              href="https://www.linkedin.com/in/anil-gajievi-a196b8164/"
+              target="_blank"
+            >
+            </a>
+
+            <a
+              id="profile-link"
+              class="contact-links"
+              href="https://github.com/Spartan301st"
+              target="_blank"
+            >
+            </a>
+          </div>
+          <div class="contact-icon-rows row2">
+            <a
+              id="email"
+              class="contact-links"
+              href="mailto:anilgajiev@gmail.com"
+              target="_blank"
+            ></a>
+          </div>
+          <div class="contact-icon-rows row3">
+            <a
+              id="freecodecamp"
+              class="contact-links"
+              href="https://www.freecodecamp.org/_-_-spartan-_-_"
+              target="_blank"
+            >
+            </a>
+
+            <a
+              id="fiverr"
+              class="contact-links"
+              href="https://www.fiverr.com/anil_dev42"
+              target="_blank"
+            >
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy; AG. All Rights reserved</footer>
+
+    <!-- For hamburger -->
+    <script>
+      const navLinksContainer = document.querySelector("#nav-links-container");
+      const hamburger = document.querySelector("#hamburger");
+
+      const liNavLinksContainers = document.querySelectorAll(
+        "#nav-links-container li"
+      );
+
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      // when hamburger icon was clicked
+      // add or hide the nav-links-container
+      // + the hamburger rotation effect
+      hamburger.addEventListener("click", () => {
+        navLinksContainer.classList.toggle("show");
+        hamburger.classList.toggle("clicked-hamburger");
+      });
+    </script>
+    <!-- For typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      let typed = new Typed("#typed-text", {
+        strings: [
+          `Bienvenidos!`,
+          `I'm <span class="highlighted-text">Anil</span>`,
+          `<span class="highlighted-text">Your</span> Web <br/> <span class="highlighted-text">Designer</span> &amp; <br/> <span class="highlighted-text">Developer</span>`,
+        ],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+
+    <!-- For projects -->
+    <script>
+      // all the available projects
+      const projects = [...document.querySelectorAll(".projects")];
+
+      // total number of projects
+      const totalProjects = parseInt(projects.length);
+      // Show last 3 + first 2 projects as cards
+      // always make last project selected
+      projects[totalProjects - 1].classList.add("selected-img");
+      projects[totalProjects - 2].classList.add("prev-img-1");
+      projects[totalProjects - 3].classList.add("prev-img-2");
+      projects[0].classList.add("next-img-1");
+      projects[1].classList.add("next-img-2");
+
+      // Loop to add click event to each img container
+      projects.forEach((project, i) =>
+        project.addEventListener("click", () => {
+          // Inner loop to remove given classes and clear all the card styles
+          projects.forEach((projectToRemoveStylingFrom) => {
+            // Remove all the applied styling from each visible project container
+            if (projectToRemoveStylingFrom.classList.contains("selected-img")) {
+              projectToRemoveStylingFrom.classList.remove("selected-img");
+            }
+            if (projectToRemoveStylingFrom.classList.contains("prev-img-1")) {
+              projectToRemoveStylingFrom.classList.remove("prev-img-1");
+            }
+            if (projectToRemoveStylingFrom.classList.contains("prev-img-2")) {
+              projectToRemoveStylingFrom.classList.remove("prev-img-2");
+            }
+            if (projectToRemoveStylingFrom.classList.contains("next-img-1")) {
+              projectToRemoveStylingFrom.classList.remove("next-img-1");
+            }
+            if (projectToRemoveStylingFrom.classList.contains("next-img-2")) {
+              projectToRemoveStylingFrom.classList.remove("next-img-2");
+            }
+            if (projectToRemoveStylingFrom.classList.contains("hidden")) {
+              projectToRemoveStylingFrom.classList.remove("hidden");
+            }
+          });
+
+          // Add selected class to the project that was clicked on
+          project.classList.add("selected-img");
+
+          // Lower wrapping back of projects //
+          // Detecting previous element
+          if (i - 1 === -1) {
+            // add styling to last element
+            projects[totalProjects - 1].classList.add("prev-img-1");
+          } else {
+            projects[i - 1].classList.add("prev-img-1");
+          }
+          // Detecting 2nd previous element
+          if (i - 2 === -1) {
+            // add styling to last element
+            projects[totalProjects - 1].classList.add("prev-img-2");
+          } else if (i - 2 === -2) {
+            // add styling to 2nd last element
+            projects[totalProjects - 2].classList.add("prev-img-2");
+          } else {
+            projects[i - 2].classList.add("prev-img-2");
+          }
+          // Upper wrapping back of projects //
+          // Detecting next element
+          if (i + 1 === totalProjects) {
+            // add styling to 1st element
+            projects[0].classList.add("next-img-1");
+          } else {
+            projects[i + 1].classList.add("next-img-1");
+          }
+          // Detecting next element
+          if (i + 2 === totalProjects) {
+            // add styling to 1st element
+            projects[0].classList.add("next-img-2");
+          } else if (i + 2 === totalProjects + 1) {
+            // add styling to 2nd element
+            projects[1].classList.add("next-img-2");
+          } else {
+            projects[i + 2].classList.add("next-img-2");
+          }
+
+          // if no class was added to the project container,
+          // meaning that it only contains 1 class of "projects"
+          // add hidden class to it to hide it
+          if (project.classList.length === 1) {
+            project.classList.add("hidden");
+          }
+        })
+      );
+
+      // Checking media queries to change imgs for the given project to corresponding img
+      // Default imgs source is for mobile so we don't need to check it
+      // For tabs
+      let tab = window.matchMedia("(min-width: 768px) and (min-height: 768px)");
+      let desktop = window.matchMedia("(min-width: 1200px)");
+      if (desktop.matches) {
+        projects.forEach((project) => {
+          let newSrc = project.children[0]
+            .getAttribute("src")
+            .replace("phone", "all");
+          project.children[0].setAttribute("src", newSrc);
+        });
+      } else if (tab.matches) {
+        projects.forEach((project) => {
+          // as the difference betw phone related photos and tabs is the ending
+          // before .png we save that modified version
+          let newSrc = project.children[0]
+            .getAttribute("src")
+            .replace("phone", "tab-phone");
+          // and just replace the src of an image to it
+          project.children[0].setAttribute("src", newSrc);
+        });
+      }
+    </script>
+  </body>
+</html>
